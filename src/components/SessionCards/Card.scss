@@ -1,0 +1,73 @@
+a {
+  width: 100%;
+
+  .session__card {
+    padding: 10px 20px;
+    margin: 5px 0px;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .session__timings {
+      h3 {
+        font-size: 18px;
+      }
+
+      .session__slot {
+        width: 70px;
+        height: 30px;
+
+        text-align: center;
+        line-height: 30px;
+
+        color: rgb(24, 143, 255);
+        font-size: 14px;
+        font-weight: 500;
+        background-color: rgba(24, 143, 255, 0.1);
+
+        border-radius: 15px;
+      }
+    }
+
+    .divider {
+      width: 2px;
+      height: 100px;
+      background-color: rgba(128, 128, 128, 0.1);
+    }
+
+    .session__details {
+      h3 {
+        font-size: 20px;
+      }
+
+      .trainer {
+        font-size: 14px;
+        color: gray;
+        margin-top: -5px;
+        margin-bottom: 10px;
+      }
+
+      .session__info {
+        font-weight: 600;
+
+        display: flex;
+        align-items: center;
+
+        p {
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .session__tranier {
+      img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+      }
+    }
+  }
+}

@@ -1,0 +1,125 @@
+.stat__cards__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 10px;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 10px 0.05px rgba($color: #000000, $alpha: 0.05);
+
+  .progress__bar__wrapper {
+    width: 50px;
+    height: 50px;
+
+    .progress__icon {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+
+  .icon__wrapper {
+    .add__icon {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
+.stat__card__one {
+  .progress__bar__wrapper {
+    .progress__icon {
+      fill: rgb(250, 68, 0);
+    }
+  }
+
+  .icon__wrapper {
+    .add__icon {
+      fill: rgb(250, 68, 0);
+    }
+  }
+}
+
+.stat__card__two {
+  .progress__bar__wrapper {
+    .progress__icon {
+      fill: rgb(39, 127, 229);
+    }
+  }
+
+  .icon__wrapper {
+    .add__icon {
+      fill: rgb(39, 127, 229);
+    }
+  }
+}
+
+.stat__card__three {
+  .progress__bar__wrapper {
+    .progress__icon {
+      width: 28px;
+      height: 28px;
+      fill: rgb(16, 39, 84);
+    }
+  }
+
+  .icon__wrapper {
+    .add__icon {
+      fill: rgb(16, 39, 84);
+    }
+  }
+}
+
+.stat__card__four {
+  .progress__bar__wrapper {
+    .progress__icon {
+      fill: rgb(39, 211, 168);
+    }
+  }
+
+  .icon__wrapper {
+    .add__icon {
+      fill: rgb(39, 211, 168);
+    }
+  }
+}
+
+.stat__card__five {
+  .progress__bar__wrapper {
+    .progress__icon {
+      width: 24px;
+      height: 24px;
+      fill: rgb(125, 48, 250);
+    }
+  }
+
+  .icon__wrapper {
+    .add__icon {
+      fill: rgb(125, 48, 250);
+    }
+  }
+}
+
+
+.add__icon1 {
+  margin: 0px;
+  padding: 0px;
+  
+  justify-content: flex-end;
+  fill: rgb(125, 48, 250);
+}
+
+
+

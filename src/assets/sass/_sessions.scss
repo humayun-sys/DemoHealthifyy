@@ -1,0 +1,203 @@
+.session__tab {
+  max-width: 600px;
+  padding: 0px 20px 20px 20px;
+}
+
+.session-row {
+  .session__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+// Session Details Page ------------------------------------
+
+.session__details__card {
+  // background-color: pink;
+
+  max-width: 700px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .session__actions__buttons {
+    padding: 15px 0px;
+
+    width: 100%;
+
+    button {
+      width: 50%;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      font-weight: 600;
+      text-transform: uppercase;
+      cursor: pointer;
+
+      &:focus {
+        outline: none;
+      }
+
+      &:first-of-type {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+      }
+
+      &:last-of-type {
+        color: white;
+        background-color: rgb(125, 48, 250);
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+    }
+  }
+
+  .session__banner {
+    width: 100%;
+    min-height: 200px;
+
+    position: relative;
+
+    div {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+
+      h2 {
+        color: white;
+        font-size: 28px;
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+      }
+
+      p {
+        color: white;
+        font-size: 16px;
+      }
+    }
+
+    img {
+      width: 100%;
+      border-radius: 8px;
+      min-height: 200px;
+    }
+  }
+
+  .session__about {
+    width: 100%;
+    padding: 20px 0px 15px 0px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      h2 {
+        font-weight: 600;
+        font-size: 22px;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 16px;
+      }
+    }
+
+    .divider {
+      width: 2px;
+      height: 70px;
+      background-color: rgba(128, 128, 128, 0.1);
+    }
+  }
+
+  .session__gallery {
+    width: 100%;
+    padding: 10px 0px;
+
+    img {
+      border-radius: 8px;
+      width: 220px;
+      height: 300px;
+
+      &:nth-of-type(even) {
+        margin: 0px 20px;
+      }
+    }
+  }
+
+  .collapse__panel {
+    margin: 30px 0px;
+    width: 100%;
+  }
+
+  .ant-collapse-icon-position-right
+    > .ant-collapse-item
+    > .ant-collapse-header
+    .ant-collapse-arrow {
+    top: 24px;
+    right: 24px;
+  }
+
+  .session__trainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 100%;
+
+    img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+    }
+
+    div {
+      margin-left: 20px;
+
+      h3 {
+        margin: 0;
+        font-size: 20px;
+      }
+    }
+  }
+
+  .session__content {
+    margin-bottom: 20px;
+
+    width: 100%;
+
+    h3 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 16px;
+      color: gray;
+    }
+
+    ul li {
+      font-size: 16px;
+    }
+
+    div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 5px 0px;
+
+      max-width: 380px;
+    }
+  }
+}
