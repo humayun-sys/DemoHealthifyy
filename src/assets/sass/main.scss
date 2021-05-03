@@ -61,3 +61,857 @@ h4 {
   margin: 0;
   margin-left: 5px;
 }
+
+
+//blog css
+
+
+.single-blog-card{
+  margin-bottom: 25px;
+}
+
+.single-blog-card span.category {
+  z-index: 2;
+  top: 10px;
+  right: 10px;
+}
+
+.single-blog-card .card-body {
+  padding: 1.75rem;
+}
+
+
+
+//span css
+
+
+
+.single-blog-card1 {
+  margin-bottom: 25px;
+  padding: 10px 0;
+}
+
+
+
+.single-blog-card1 .card-body {
+  padding: 1.75rem;
+}
+
+
+
+
+//team css
+
+.single-team-member .team-info {
+    // background-image: linear-gradient(to right, rgba(32, 40, 119, 0.85), rgba(55, 46, 149, 0.9), rgba(83, 49, 177, 0.85), rgba(114, 48, 205, 0.8), rgba(150, 41, 230, 0.8));
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 0.3s, visibility 0.3s;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.team-image img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.team-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.team-social li a {
+    text-decoration: none;
+    color: inherit;
+    opacity: 0.8;
+}
+
+.team-social li a:hover {
+    opacity: 1;
+}
+
+.team-social li a span {
+    padding: 6px;
+}
+
+.visible-info {
+    width: 100%;
+}
+
+
+//careers css
+
+
+.jobs__banner__wrapper {
+  width: 100%;
+  height: 300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+  // background-image: url("assets/img/doctors/doctor-05.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  // background-attachment: fixed;
+
+  .jobs__banner__overlay {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+
+    opacity: 0.5;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+  }
+
+  h1 {
+    // color: $white;
+    font-weight: 300;
+    z-index: 1;
+    letter-spacing: 1px;
+    font-size: 50px;
+  }
+}
+
+.jobsInfo__wrapper {
+  width: 100%;
+  // background-color: $white;
+
+  padding: 50px 20px;
+
+  .jobsInfo__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-top: 40px;
+
+    .jobsInfo__image {
+      width: 500px;
+
+      margin-right: 20px;
+
+      img {
+        width: 100%;
+
+        border-radius: 4px;
+      }
+    }
+
+    .jobsInfo__text {
+      width: 40%;
+
+      margin-left: 20px;
+
+      p {
+        line-height: 2.2;
+        letter-spacing: 1px;
+        text-align: justify;
+      }
+    }
+  }
+}
+
+.jobsApply__wrapper {
+  padding: 50px 20px;
+
+  padding-bottom: 70px;
+
+  .form__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    border-radius: 10px;
+
+    max-width: 70%;
+
+    margin: 0 auto;
+    margin-top: 40px;
+
+    overflow: hidden;
+
+    // background-color: $white;
+    box-shadow: 0px 0px 40px 0.3px rgba($color: #000000, $alpha: 0.2);
+  }
+
+  form {
+    width: 45%;
+
+    padding: 30px 0;
+    padding-left: 40px;
+
+    .form__field {
+      width: 100%;
+
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+
+      margin-bottom: 10px;
+
+      label,
+      input {
+        width: 100%;
+      }
+
+      input {
+        padding: 5px 10px;
+        margin-top: 5px;
+        font-size: 18px;
+      }
+    }
+
+    button {
+      width: 100%;
+
+      margin-top: 20px;
+      padding: 10px 0;
+
+      font-size: 18px;
+      letter-spacing: 1px;
+      // color: $white;
+      cursor: pointer;
+
+      border: none;
+      // background-color: $secondaryColor;
+    }
+  }
+
+  .form__image {
+    width: 45%;
+    height: 620px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .jobsInfo__wrapper {
+    .jobsInfo__container {
+      flex-direction: column-reverse;
+
+      .jobsInfo__image {
+        width: 500px;
+        margin-right: 0px;
+        margin-top: 30px;
+      }
+
+      .jobsInfo__text {
+        width: 80%;
+        margin-left: 0px;
+      }
+    }
+  }
+
+  .jobsApply__wrapper {
+    .form__wrapper {
+      max-width: 90%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .jobsInfo__wrapper {
+    .jobsInfo__container {
+      .jobsInfo__image {
+        width: 90%;
+        margin-right: 0px;
+        margin-top: 30px;
+      }
+
+      .jobsInfo__text {
+        width: 80%;
+        margin-left: 0px;
+      }
+    }
+  }
+
+  .jobsApply__wrapper {
+    .form__wrapper {
+      max-width: 90%;
+    }
+    form {
+      width: 100%;
+
+      padding: 40px;
+    }
+    .form__image {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .jobsInfo__wrapper {
+    .jobsInfo__container {
+      .jobsInfo__text {
+        width: 90%;
+      }
+    }
+  }
+
+  .jobs__banner__wrapper {
+    h1 {
+      text-align: center;
+      font-size: 35px;
+    }
+  }
+
+  .jobsApply__wrapper {
+    .form__wrapper {
+      max-width: 98%;
+    }
+    form {
+      width: 100%;
+
+      padding: 40px 15px;
+    }
+    .form__image {
+      display: none;
+    }
+  }
+}
+
+
+/// mental welness css
+
+// .thankyou-section{
+//    display: none;
+//    padding-top: 120px;
+//    font-size: 32px;
+
+// }
+
+// .container{
+//   background:#fff;
+// }
+
+// .content-icon_benefit-table__item {
+//   border: 1px solid black;
+//   text-align: center;
+//   margin: 20px 0;
+//   padding: 15px;
+//   text-align: left;
+  
+// }
+
+// .ranting {
+//   margin: 20px 0;
+//   padding: 20px 0;
+//   text-align: center;
+// }
+// .content-header1{
+//   text-align: center;
+//   font-size: 26px;
+// }
+
+
+p {
+  margin: 0px;
+}
+
+p,
+h1,
+h2,
+h3,
+div,
+span {
+  font-family: Camphor;
+}
+
+.table>tbody>tr>td {
+  padding: 6px !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+  #header-container {
+      background: url('https://gallery.mailchimp.com/2d2410c00655539c23a0c96a5/images/7ef8684d-599f-4e8c-b99b-9dc4b8ee6754.png');
+      margin-left: -15px !important;
+      margin-right: -15px !important;
+      padding: 32px !important;
+      padding-top: 50px !important;
+      background-size: contain !important;
+      background-repeat: round !important;
+  }
+  #form-bg-opacity {
+      width: 90% !important;
+      margin-left: 20px;
+  }
+  .inputField {
+      background-color: #f0f0f5 !important;
+      width: 314px !important;
+  }
+  #testi-heading {
+      font-size: 20px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.3;
+      letter-spacing: normal;
+      color: #2d2d32;
+  }
+  #text-carousel {
+      padding: 50px 16px !important;
+  }
+  #page-heading {
+      text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+      font-size: 26px !important;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #ffffff;
+  }
+  .main {
+      height: 100%;
+      background: none !important;
+  }
+  #form-container {
+      padding: 20px 0px !important;
+      position: relative;
+  }
+  #form-bg-opacity {
+      left: 0;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+  .main {
+      margin: 0;
+      background: url('https://gallery.mailchimp.com/2d2410c00655539c23a0c96a5/images/7ef8684d-599f-4e8c-b99b-9dc4b8ee6754.png') center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 2%;
+      color: #fff;
+  }
+  #form-bg-opacity {
+      width: 63% !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+  #form-bg-opacity {
+      width: 52% !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+  #form-bg-opacity {
+      width: 40% !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+  .carousel-inner {
+      min-height: 160px !important;
+  }
+  #form-bg-opacity {
+      width: 100% !important;
+  }
+}
+
+#testi-heading {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  color: #2d2d32;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.table {
+  margin-bottom: 0px !important;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+  border: none !important;
+}
+
+/* Add a gray background color and some padding to the footer */
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none !important;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next,
+.carousel-control .icon-prev {
+  font-size: 35px !important;
+}
+
+.test-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.test-name {
+  padding: 0px 10px;
+  text-align: left;
+}
+
+.carousel-content {
+  color: #414146;
+  display: flex;
+  align-items: center;
+  font-size: 13px !important;
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+
+#form-bg-opacity {
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  position: absolute;
+  border-radius: 4px;
+  box-shadow: 0 6px 12px 0 rgba(135, 135, 135, 0.5);
+  background-color: rgba(255, 255, 255, 0.84);
+}
+
+#page-heading {
+  font-size: 34px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+#form-container-div {
+  margin: 15px 0;
+}
+
+.fa-check {
+  color: #998ddd;
+}
+
+#page-sub-heading {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+#form-container {
+  padding: 20px;
+  position: relative;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #787887;
+  padding: 0px;
+}
+
+::-moz-placeholder,
+:-ms-input-placeholder {
+  /* Firefox 19+ */
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #787887;
+  padding-left: 20px;
+}
+
+.inputField {
+  width: 348px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: 1px solid #ffffff;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: Camphor, serif;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #787887;
+  border: none;
+  padding: 10px;
+}
+
+#button-style {
+  border-radius: 2px;
+  background-color: #14bef0;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  width: 100%;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.content-header {
+  font-size: 26px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  color: #2d2d32;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.item {
+  display: none;
+  position: relative;
+  transition: 0.6s ease-in-out left;
+}
+
+.option-main-text {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2d2d32;
+  margin: 5px 0px;
+}
+
+.list-item-style {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #414146;
+  display: flex;
+  font-weight: unset !important;
+  margin-top: 20px;
+}
+
+.list-content {
+  padding-left: 10px;
+}
+
+.sub-list-head {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  color: #2d2d32;
+}
+
+.testi-text {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.69;
+  letter-spacing: normal;
+  text-align: center;
+  color: #414146;
+}
+
+.nav {
+  height: 50px;
+  background: white;
+  display: flex;
+}
+
+.logo {
+  height: 24px;
+}
+
+.nav-logo {
+  align-self: center;
+  padding: 0px 20px;
+}
+
+#logo-container {
+  width: 1170px;
+  margin: auto;
+}
+
+.company-logo {
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.company-logo img {
+  object-fit: contain;
+  width: 100%;
+  max-height: 100px;
+}
+
+.company-logo p {
+  padding: 1rem 0;
+}
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.contents-section {
+  margin-top: 10px;
+}
+
+.content-text {
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: unset !important;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+
+.content-icon {
+  vertical-align: top;
+}
+
+.display-image {
+  height: 290px;
+  object-fit: cover;
+  object-position: right;
+}
+
+
+
+
+
+.benefit-table {
+  border: 1px solid black;
+  width: 50%;
+  margin: auto
+}
+
+.benefit-table__item {
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+  width: 50%;
+}
+
+.benefit-table__item__description {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.benefit-table__item__footer {
+  font-size: 12px;
+  padding-top: 15px;
+}
+
+.advantage-section {
+  display: flex;
+  align-items: center;
+}
+
+
+//snap css
+
+
+.subscribe-form-footer {
+  position: absolute;
+  top: 8px;
+  width: 100%;
+}
+
+.subscribe-form-footer input.form-control {
+  padding: 1.275rem 0.95rem;
+  border-radius: 30px;
+}
+
+.subscribe-form-footer input.button {
+  border-radius: 30px;
+}
+
+.shape-img {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+.shape-img img {
+  width: 100%;
+  position: absolute;
+  max-width: none;
+  height: auto;
+  top: -2px;
+}
+
+
+
+
+/*=========================================
+            06. PROMO SECTION CSS
+============================================*/
+
+

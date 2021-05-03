@@ -5,11 +5,11 @@ import React from "react";
 function HealthifyCare() {
   return (
         <>
-         <section id="HealthifyCare" class="our-HealthifyCare-section ptb-100 gray-light-bg">
+         {/* <section id="HealthifyCare" class="our-HealthifyCare-section ptb-100 gray-light-bg">
    <div data-collapse="medium" data-animation="default" data-duration="400" data-contain="1" class="w-nav navigation">
         <div class="w-container">
             <a href="/" class="w-nav-brand w-clearfix brand-link"><img src="/static/images/Hme-logo1.8dd8b23cd2bb.png" class="nav-logo"/>
-        <div class="logo-text">| Care</div>
+        <div class="logo-text">healthify Care</div>
       </a>
             <nav role="navigation" class="w-nav-menu nav-menu"><a href="#features" class="w-nav-link nav-link">How it Works?</a><a href="#pricing" class="w-nav-link nav-link">Offerings</a><a href="#customers" class="w-nav-link nav-link">Customers</a><a href="#wf-form-newsletter" class="w-nav-link nav-link demo">Demo</a>
             </nav>
@@ -45,7 +45,7 @@ function HealthifyCare() {
                     <h1 class="main-heading">Extending care<br/>beyond the Hospital</h1>
                     <p class="main-subtitle">Get your organisation on board
                         <br/>India's Leading Digital Lifestyle Modification Platform
-                        <br/>Powered by <a class="link" target="_blank" href="https://www.healthifyme.com">HealthifyMe</a>.</p><a href="#wf-form-newsletter" class="button">Request a Demo</a><a href="#features" class="button two">Learn More</a>
+                        <br/>Powered by <a class="link" target="_blank" href="https://www.healthifyme.com">Healthify</a>.</p><a href="#wf-form-newsletter" class="button">Request a Demo</a><a href="#features" class="button two">Learn More</a>
                 </div>
                 <div class="w-col w-col-6">
                 </div>
@@ -60,7 +60,7 @@ function HealthifyCare() {
                 <div class="w-col w-col-6">
                     <div class="main-feature-group">
                         <h3 class="section-title">How it works ?</h3>
-                        <p class="section-body">HealthifyMe Nutritionists work with patients on critical
+                        <p class="section-body">Healthify Nutritionists work with patients on critical
                             <br/> areas of diet adherence and patient motivation once the
                             <br/> patient leaves the consultation room</p>
                     </div>
@@ -159,7 +159,7 @@ function HealthifyCare() {
                     </div>
                     <div class="w-slide testimony-slide">
                         <p class="testimony-text">After being adviced by a doctor to lose weight, I took up HealthifyMe. I lose 6.2 kgs in 2 months and my thyroid levels are back to normal.</p>
-                        <div class="name">Manoj Kumar Acharya</div>
+                        <div class="name">Nikhilesh sir</div>
                         <div class="title">Lost 10.2 kgs in three months</div>
                     </div>
                 </div>
@@ -178,7 +178,7 @@ function HealthifyCare() {
         </div>
     </div>
   
-</section>
+</section> */}
     </>
       );
 }

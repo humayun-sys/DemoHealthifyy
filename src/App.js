@@ -11,16 +11,22 @@ import OurStory from "./pages/OurStory";
 import OurCoaches from "./pages/OurCoaches";
 import Careers from "./pages/Careers";
 import Login from "./pages/Login";
+import Snap from "./pages/Snap";
 import Register from "./pages/Register";
 import ForgotPassword from "./pages/ForgotPassword";
 // import NotFound from "./pages/NotFound";
 import Blog from "./pages/Blog";
+import OurApplication from "./pages/OurApplication";
+import Settings from "./pages/Settings";
+import WorkoutPlan from './pages/WorkoutPlan';
 
 import Home from "./pages/Home";
 //import BookYourSession from "./pages/BookYourSession";
 import SessionDetails from "./pages/SessionDetails";
 import Plans from "./pages/Plans";
 import HealthifyCare from "./pages/HealthifyCare";
+import MentalWellness from "./pages/MentalWellness";
+//import WorkoutPlan from "./pages/WorkOutPlan";
 //import { Header } from "antd/lib/layout/layout";
 
 function App() {
@@ -55,6 +61,11 @@ function App() {
             <Route exact={true} path="/careers" component={Careers} />
             <Route exact={true} path="/team" component={Team} />
             <Route exact={true} path="/Our-coaches" component={OurCoaches} />
+            <Route exact={true} path="/Our-Application" component={OurApplication} />
+            <Route exact={true} path="/settings" component={Settings} />
+            <Route exact={true} path="/workout-plan" component={WorkoutPlan} />
+            <Route exact={true} path="/mental-wellness" component={MentalWellness} />
+            <Route exact={true} path="/snap" component={Snap}/>
             
           </HomeLayout>
          <Header/>

@@ -11,7 +11,7 @@ class OurStory extends React.Component{
 
             return(
                <>
-                     <section class="story team__grid">
+                     <section class="story_team__grid">
             <div class="heading extra__margin-2 our__story">
                 <p>Our Story</p>
             </div>
@@ -25,9 +25,9 @@ class OurStory extends React.Component{
                         This is our story! #StoryoftheInfallibles
                     </p>
                     <p className="text-align:left">
-                        <a target="_blank" href="https://stories.healthify.com/the-story-of-the-infallibles-3f2aeb36e1d6" class="our__story__btn">
+                        {/* <a target="_blank" href="https://stories.healthify.com/the-story-of-the-infallibles-3f2aeb36e1d6" class="our__story__btn">
                       READ MORE
-                  </a>
+                  </a> */}
                     </p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -45,9 +45,9 @@ class OurStory extends React.Component{
                         This is our story! #StoryoftheInfallibles
                     </p>
                     <p className="text-align:left1">
-                        <a target="_blank" href="https://stories.healthify.com/the-story-of-the-infallibles-3f2aeb36e1d6" class="our__story__btn">
+                        {/* <a target="_blank" href="https://stories.healthify.com/the-story-of-the-infallibles-3f2aeb36e1d6" class="our__story__btn">
                         READ MORE
-                    </a>
+                    </a> */}
                     </p>
                 </div>
             </div>

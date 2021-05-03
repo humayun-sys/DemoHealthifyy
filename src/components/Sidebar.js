@@ -52,7 +52,7 @@ class Sidebar extends Component {
           </Menu.Item>
 
           <Menu.Item key="5" icon={<MedicineBoxFilled />}>
-            <Link to="/Mental-wellness">Mental Wellness</Link>
+            <Link to="/mental-wellness">Mental Wellness</Link>
           </Menu.Item>
 
           <Menu.Item key="6" icon={<DeliveredProcedureOutlined />}>

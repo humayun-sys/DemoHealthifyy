@@ -13,28 +13,25 @@ function Header() {
         
       </div> */}
       <Menu theme="white" mode="horizontal" defaultSelectedKeys={["6"]}>
+       
+
           <Menu.Item key="1">
-                <Link to ="/healthify-care">HealthifyCare </Link> 
-          </Menu.Item>  
-
-
-          <Menu.Item key="2">
                 <Link to ="/our-story">Our Story </Link> 
           </Menu.Item>
 
 
-          <Menu.Item key="3">
+          <Menu.Item key="2">
                 <Link to ="/careers">Careers</Link> 
           </Menu.Item>
 
-        <Menu.Item key="4">
+        <Menu.Item key="3">
             <Link to ="/blog">Blog</Link>
             </Menu.Item>
 
-        <Menu.Item key="5">
+        <Menu.Item key="4">
                 <Link to ="/Team">Our Team </Link> 
           </Menu.Item>
-          <Menu.Item key="6">
+          <Menu.Item key="5">
                 <Link to ="/our-coaches">Our Coaches</Link> 
           </Menu.Item>
         

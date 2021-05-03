@@ -11,146 +11,91 @@ class Team extends React.Component{
 
             return(
                 <>
-        <section class="breadcrumbs-custom bg-gray-200" >
-        <div class="container">
-           <div class="row row-10 align-items-center">
-           
-            <div class="col-md-5">
-              {/* <ul class="breadcrumbs-custom-path">
-                <li class="active">Team</li>
-              </ul> */}
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section-lg bg-default section-decoration-1 section-decoration-1-mode">
-        <div class="container">
-          <div class="row row-30">
-            <div class="col-sm-6 col-lg-4">
-              <div class="team-classic">
-                <div class="team-classic-img"><img src="assets/images/team-1-230x230.jpg" alt="" width="230" height="230"/>
-                </div>
-                <div class="team-classic-caption">
-                  <h5 class="team-classic-title">Peter Adams</h5>
-                  <p>Co-Founder</p>
-                  <ul class="list-inline">
-                    <li class="list-inline-item"><a class="icon fa-facebook-f" href="#"></a></li>
-                    <li class="list-inline-item"><a class="icon fa-instagram" href="#"></a></li>
-                    <li class="list-inline-item"><a class="icon fa-linkedin" href="#"></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-              <div class="team-classic">
-                <div class="team-classic-img"><img src="assets/images/team-2-230x230.jpg" alt="" width="230" height="230"/>
-                </div>
-                <div class="team-classic-caption">
-                  <h5 class="team-classic-title">Julie Collins</h5>
-                  <p>Co-Founder</p>
-                  <ul class="list-inline">
-                    <li class="list-inline-item"><a class="icon fa-facebook-f" href="#"></a></li>
-                    <li class="list-inline-item"><a class="icon fa-instagram" href="#"></a></li>
-                    <li class="list-inline-item"><a class="icon fa-linkedin" href="#"></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-              <div class="team-classic">
-                <div class="team-classic-img"><img src="assets/images/team-3-230x230.jpg" alt="" width="230" height="230"/>
-                </div>
-                <div class="team-classic-caption">
-                  <h5 class="team-classic-title">John Snow</h5>
-                  <p>Designer</p>
-                  <ul class="list-inline">
-                    <li class="list-inline-item"><a class="icon fa-facebook-f" href="#"></a></li>
-                    <li class="list-inline-item"><a class="icon fa-instagram" href="#"></a></li>
-                    <li class="list-inline-item"><a class="icon fa-linkedin" href="#"></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-              <div class="team-classic">
-                <div class="team-classic-img"><img src="assets/images/team-4-230x230.jpg" alt="" width="230" height="230"/>
-                </div>
-                <div class="team-classic-caption">
-                  <h5 class="team-classic-title">Jane Williams</h5>
-                  <p>Designer</p>
-                  <ul class="list-inline">
-                    <li class="list-inline-item"><a class="icon fa-facebook-f" href="#"></a></li>
-                    <li class="list-inline-item"><a class="icon fa-instagram" href="#"></a></li>
-                    <li class="list-inline-item"><a class="icon fa-linkedin" href="#"></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-              <div class="team-classic">
-                <div class="team-classic-img"><img src="assets/images/team-5-230x230.jpg" alt="" width="230" height="230"/>
-                </div>
-                <div class="team-classic-caption">
-                  <h5 class="team-classic-title">Mark Smith</h5>
-                  <p>Frontend developer</p>
-                  <ul class="list-inline">
-                    <li class="list-inline-item"><a class="icon fa-facebook-f" href="#"></a></li>
-                    <li class="list-inline-item"><a class="icon fa-instagram" href="#"></a></li>
-                    <li class="list-inline-item"><a class="icon fa-linkedin" href="#"></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-              <div class="team-classic">
-                <div class="team-classic-img"><img src="assets/images/team-6-230x230.jpg" alt="" width="230" height="230"/>
-                </div>
-                <div class="team-classic-caption">
-                  <h5 class="team-classic-title">John Doe</h5>
-                  <p>Frontend developer</p>
-                  <ul class="list-inline">
-                    <li class="list-inline-item"><a class="icon fa-facebook-f" href="#"></a></li>
-                    <li class="list-inline-item"><a class="icon fa-instagram" href="#"></a></li>
-                    <li class="list-inline-item"><a class="icon fa-linkedin" href="#"></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-              <div class="team-classic">
-                <div class="team-classic-img"><img src="assets/images/team-7-230x230.jpg" alt="" width="230" height="230"/>
-                </div>
-                <div class="team-classic-caption">
-                  <h5 class="team-classic-title">Alex McMillan</h5>
-                  <p>Backend developer</p>
-                  <ul class="list-inline">
-                    <li class="list-inline-item"><a class="icon fa-facebook-f" href="#"></a></li>
-                    <li class="list-inline-item"><a class="icon fa-instagram" href="#"></a></li>
-                    <li class="list-inline-item"><a class="icon fa-linkedin" href="#"></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-              <div class="team-classic">
-                <div class="team-classic-img"><img src="assets/images/team-8-230x230.jpg" alt="" width="230" height="230"/>
-                </div>
-                <div class="team-classic-caption">
-                  <h5 class="team-classic-title">Tom Ford</h5>
-                  <p>Tester</p>
-                  <ul class="list-inline">
-                    <li class="list-inline-item"><a class="icon fa-facebook-f" href="#"></a></li>
-                    <li class="list-inline-item"><a class="icon fa-instagram" href="#"></a></li>
-                    <li class="list-inline-item"><a class="icon fa-linkedin" href="#"></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       
+      <section id="team" class="team-member-section ptb-100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 col-md-8">
+                        <div class="section-heading text-center mb-5">
+                            <span class="text-uppercase color-secondary sub-title">Lovely Team</span>
+                            <h2>Our Team Members</h2>
+                            <p>
+                                Following reasons show advantages of adding healthify to your lead pages, foster market positioning products without demos and checkouts.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-team-member position-relative">
+                            <div class="team-image">
+                                <h5 class="mb-0">Edna Mason</h5>
+                                <h6>Senior Designer</h6>
+                                <img src="assets/img/doctors/doctor-01.jpg" alt="Team Members" class="img-fluid rounded"/>
+                            </div>
 
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-team-member position-relative">
+                            <div class="team-image">
+                                <h5 class="mb-0">Edna Mason</h5>
+                                <h6>Senior Designer</h6>
+                                <img src="assets/img/doctors/doctor-02.jpg" alt="Team Members" class="img-fluid rounded"/>
+                            </div>
+                            {/* <div class="team-info text-white rounded d-flex flex-column align-items-center justify-content-center">
+                                <h5 class="mb-0">Edna Mason</h5>
+                                <h6>Senior Designer</h6>
+                                <ul class="list-inline team-social social-icon mt-4 text-white">
+                                    <li class="list-inline-item"><a href="#"><span class="ti-facebook"></span></a></li>
+                                    <li class="list-inline-item"><a href="#"><span class="ti-twitter"></span></a></li>
+                                    <li class="list-inline-item"><a href="#"><span class="ti-github"></span></a></li>
+                                    <li class="list-inline-item"><a href="#"><span class="ti-dribbble"></span></a></li>
+                                </ul>
+                            </div> */}
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-team-member position-relative">
+                            <div class="team-image">
+                                <h5 class="mb-0">Edna Mason</h5>
+                                <h6>Senior Designer</h6>
+                                <img src="assets/img/doctors/doctor-03.jpg" alt="Team Members" class="img-fluid rounded"/>
+                            </div>
+                            {/* <div class="team-info text-white rounded d-flex flex-column align-items-center justify-content-center">
+                                <h5 class="mb-0">Edna Mason</h5>
+                                <h6>Senior Designer</h6>
+                                <ul class="list-inline team-social social-icon mt-4 text-white">
+                                    <li class="list-inline-item"><a href="#"><span class="ti-facebook"></span></a></li>
+                                    <li class="list-inline-item"><a href="#"><span class="ti-twitter"></span></a></li>
+                                    <li class="list-inline-item"><a href="#"><span class="ti-github"></span></a></li>
+                                    <li class="list-inline-item"><a href="#"><span class="ti-dribbble"></span></a></li>
+                                </ul>
+                            </div> */}
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-team-member position-relative">
+                            <div class="team-image">
+                              <h5 class="mb-0">Edna Mason</h5>
+                                <h6>Senior Designer</h6>
+                                <img src="assets/img/doctors/doctor-04.jpg" alt="Team Members" class="img-fluid rounded"/>
+                            </div>
+                            {/* <div class="team-info text-white rounded d-flex flex-column align-items-center justify-content-center">
+                                <h5 class="mb-0">Edna Mason</h5>
+                                <h6>Senior Designer</h6>
+                                <ul class="list-inline team-social social-icon mt-4 text-white">
+                                    <li class="list-inline-item"><a href="#"><span class="ti-facebook"></span></a></li>
+                                    <li class="list-inline-item"><a href="#"><span class="ti-twitter"></span></a></li>
+                                    <li class="list-inline-item"><a href="#"><span class="ti-github"></span></a></li>
+                                    <li class="list-inline-item"><a href="#"><span class="ti-dribbble"></span></a></li>
+                                </ul>
+                            </div> */}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
                 </>
             )
