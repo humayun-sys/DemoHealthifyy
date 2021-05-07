@@ -12,13 +12,16 @@ function OurCoaches() {
             <div class="row hme-mobile-app-features">
                 <ul class="nav nav-tabs">
                     <li>
-                        <a href="/dietitians">NUTRITION</a>
+                        {/* <a href="/dietitians">NUTRITION</a> */}
+                        <h1>NUTRITION</h1>
                     </li>
                     <li class="active">
-                        <a href="/fitness-trainers">FITNESS</a>
+                        {/* <a href="/fitness-trainers">FITNESS</a> */}
+                        <h1>FITNESS</h1>
                     </li>
                     <li>
-                        <a href="/yoga-instructors">YOGA</a>
+                        {/* <a href="/yoga-instructors">YOGA</a> */}
+                        <h1>YOGA</h1>
                     </li>
                 </ul>
                 <div class="tab-content">

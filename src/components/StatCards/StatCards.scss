@@ -122,4 +122,24 @@
 }
 
 
+.model_content  {
+  margin: auto;
+  padding: 20px;
+  top: -300px; opacity: 0;
+  width: 80%;
+  top: 0; opacity: 1;
+ 
+  
+  
+}
+
+.add__icon2{
+  margin: 0px;
+  padding: -15px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  justify-content: flex-end;
+  fill: rgb(48, 250, 82);
+}
 

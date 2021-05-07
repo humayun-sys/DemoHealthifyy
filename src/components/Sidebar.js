@@ -11,6 +11,7 @@ import {
   BookFilled,
   TeamOutlined,
   PlayCircleOutlined,
+  TagOutlined,
 } from "@ant-design/icons";
 
 import { Link } from "react-router-dom";
@@ -87,7 +88,12 @@ class Sidebar extends Component {
             <Link to="/healthify-your-workplace">Healthify your Workplace</Link>
           </Menu.Item>
 
-          <Menu.Item key="14" icon={<SettingOutlined />}>
+          <Menu.Item key="14" icon={<TagOutlined />}>
+            <Link to="activate-plan">Activate plan</Link>
+          </Menu.Item>
+
+
+          <Menu.Item key="15" icon={<SettingOutlined />}>
             <Link to="settings">Settings</Link>
           </Menu.Item>
 

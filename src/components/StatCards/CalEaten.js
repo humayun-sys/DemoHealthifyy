@@ -50,26 +50,46 @@ function CalEaten() {
 
         <Modal title="Which meal would you like to track" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}  footer={null} >
   
-        
-          <p>Breakfast  <MdAddCircle className="add__icon1"/>  </p>
-  
-          <br/>
-  
-          <p>Morning Snack  <MdAddCircle className="add__icon1"/></p>
-  
-          <br/>
-  
-          <p>Lunch <MdAddCircle className="add__icon1"/></p>
-  
-          <br/>
+           <div className="model_content">
+               <p>Breakfast  <MdAddCircle className="add__icon2"/>  </p>
+          </div>
           
-          <p>Evening Snack <MdAddCircle className="add__icon1"/></p>
-  
-          <br/>
-  
-          <p>Dinner <MdAddCircle className="add__icon1"/></p>
-  
-          <br/>
+          <div className="model_content">
+          <p>Morning Snack  <MdAddCircle className="add__icon2"/></p>
+          </div>
+          
+          <div className="model_content">
+          <p>Lunch <MdAddCircle className="add__icon2"/></p>
+          </div>
+          <div className="model_content">
+          <p>Evening Snack <MdAddCircle className="add__icon2"/></p>
+          </div>
+          
+          <div className="model_content">
+          <p>Dinner <MdAddCircle className="add__icon2"/></p>
+          </div>
+
+
+          {/* <div data-role="page" id="pageone">
+  <div data-role="main" class="ui-content">
+    <h2>List Icons:</h2>
+    <ul data-role="listview" data-inset="true">    
+      <li><a >Default is right arrow</a></li>
+      <li data-icon="plus"><a >break fast</a></li>
+      <li data-icon="minus"><a >break fast</a></li>
+      <li data-icon="delete"><a >data-icon="delete"</a></li>
+      <li data-icon="location"><a >data-icon="location"</a></li>   
+      <li data-icon="false"><a >data-icon="false"</a></li>
+    </ul>
+  </div>
+</div>  */}
+
+   
+          
+         
+
+            
+          
         </Modal>
       </div>
     </div>

@@ -2,6 +2,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import "antd/dist/antd.css";
 import "./assets/sass/main.scss";
+import "./pages/healthlogs.scss";
 
 import HomeLayout from "./Layout/HomeLayout";
 // import GeneralLayout from "./Layout/GeneralLayout";
@@ -17,13 +18,15 @@ import ForgotPassword from "./pages/ForgotPassword";
 // import NotFound from "./pages/NotFound";
 import Blog from "./pages/Blog";
 import OurApplication from "./pages/OurApplication";
-import Settings from "./pages/Settings";
+import ActivatePlan from "./pages/ActivatePlan";
 import WorkoutPlan from './pages/WorkoutPlan';
+import HealthLogs from "./pages/HealthLogs";
 
 import Home from "./pages/Home";
 //import BookYourSession from "./pages/BookYourSession";
 import SessionDetails from "./pages/SessionDetails";
 import Plans from "./pages/Plans";
+import DietFoodMenu from './pages/DietFoodMenu';
 import HealthifyCare from "./pages/HealthifyCare";
 import MentalWellness from "./pages/MentalWellness";
 //import WorkoutPlan from "./pages/WorkOutPlan";
@@ -62,10 +65,12 @@ function App() {
             <Route exact={true} path="/team" component={Team} />
             <Route exact={true} path="/Our-coaches" component={OurCoaches} />
             <Route exact={true} path="/Our-Application" component={OurApplication} />
-            <Route exact={true} path="/settings" component={Settings} />
+            <Route exact={true} path="/activate-plan" component={ActivatePlan} />
             <Route exact={true} path="/workout-plan" component={WorkoutPlan} />
             <Route exact={true} path="/mental-wellness" component={MentalWellness} />
             <Route exact={true} path="/snap" component={Snap}/>
+            <Route exact={true} path="/Diet-Food-Menu" component={DietFoodMenu}/>
+            <Route exact={true} path ="/health-logs" component={HealthLogs}/>
             
           </HomeLayout>
          <Header/>
